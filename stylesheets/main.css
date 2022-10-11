@@ -1,0 +1,36 @@
+/* Body Style applies to whole page */
+body{
+	/* background: #56A69E; */
+	font-family: "Century Gothic";
+  background-color: #1f1f1f; /* Dark Gray */
+}
+
+/*Header Style applies to headers*/
+h1{
+	font-size: 30px;
+	text-transform: capitalize; /*capitalizes each word
+	font-style: italic;
+	font-weight: 100;*/
+	text-align: center;
+	color: #5da8a1;
+}
+
+/*Paragraph style applies to paragraphs*/
+p{
+  color: #ffffff;
+}
+
+/*Link style applies to links*/
+a.button {
+  background-color: #c583ac; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 1;
+}
+
+a.button:hover {opacity: 0.6}

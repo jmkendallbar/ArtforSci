@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ArtForSci.com</title>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script> <! -- This loads chart.js -->
+	
+	</head>
+	<body>
+		<h1>Welcome to Art for Science Communication</h1>
+		<p>Welcome to our website showcasing techniques for science communication, harnessing the power of art, science, and technology to make compelling data visualizations.
+		</p>
+		<br>
+		<p>Referencing Where the ISS API data latitude: <span id="lat"></span></p>
+		<p>Referencing Where the ISS API data longitude: <span id="lon"></span></p>
+		
+		<a href="https://datavisualization.sites.ucsc.edu/" class="button">This is a button</a>
+		<br>
+		<canvas id="chart" width="400" height="400"></canvas>
+		<br>
+		<div id="gallery" style="display: grid; grid-template-columns: 1fr 1fr;"></div>
+		<br>
+		<img src="" id="kelp" width="480"> <! -- using fetch to get an image -->
+		<img src="https://datavisualization.sites.ucsc.edu/files/2021/01/cropped-humpbackwhale-2.png" width="1000",height="100">
+		<link rel="stylesheet" href="stylesheets/main.css">
+		<script src="https://d3js.org/d3.v6.min.js"></script> <! -- This loads d3 -->
+		<script src="javascripts/main.js"></script>
+		</body>
+</html>
